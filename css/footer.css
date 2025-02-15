@@ -1,0 +1,93 @@
+/*
+    Tudo relacionado ao footer deve ser editado aqui.
+*/
+
+#footer {
+  background-color: #2a2829;
+  color: white;
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 0px 0px 15px 15px;
+  text-align: center;
+}
+
+#footer .newsletter-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+#footer .newsletter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#footer input {
+  border: 1px solid #3c3c3c;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 40px;
+  box-sizing: border-box;
+  flex: 1;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+#footer button {
+  border: 0;
+  background: #333333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer button:hover {
+  color: #ffffff;
+  background: #7b3b3b;
+  transition: all 300ms;
+}
+
+#footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+/* Responsividade da page */
+
+@media (max-width: 1024px) {
+  #footer {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer {
+    width: 100%;
+  }
+
+  #footer .newsletter {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #footer input, #footer button {
+    width: 100%;
+    max-width: none;
+  }
+}

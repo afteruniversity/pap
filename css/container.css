@@ -1,0 +1,59 @@
+/*
+    Tudo relacionado aos containers textuais devem ser editados aqui. (Utilizado antes e depois dos cards)
+*/
+
+#showcase .showcase-container {
+    background: aliceblue;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+h2:hover {
+    transition: all 300ms;
+    background-image: linear-gradient(90deg, #76d1ff, indigo, green, red, yellow, green);
+    background-size: 57.5%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+p {
+    padding: 10px;
+}
+
+/* Responsividade da page */
+
+@media (max-width: 1024px) {
+    #showcase .showcase-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    #showcase .showcase-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #showcase .showcase-container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,39 @@
+/*
+    PAP - POTIONS AND POSIONS INC. A VERY MAGICAL POTIONS CENTER - A SIMPLE HTML/CSS STRUCTURE.
+
+    * O site criado por mim faz parte do primeiro desafio do Treinamento Júnior criado pelo Caleb em colaboração com Igor a.k.a. meus tech leaders da Level 33.
+
+    * O site tem uma construção simples que envolve somente o uso de HTML e CSS, o HTML age na construção e estruturação do site e o CSS age na estilização
+    dos componentes da página.
+
+    * Elementos a se prestar atenção:
+        - Media Query: As media queries permitem aplicar estilos CSS com base no tipo de mídia do dispositivo (como impressão vs. tela)
+            ou em outras características, como resolução ou orientação da tela, proporção, largura ou altura da janela do navegador,
+            preferências do usuário,como redução de movimento, uso de dados ou transparência.
+
+    Ao dedcorrer do código eu utilizei o Media Query de forma que, ele tenha várias definições de tamanho para se adaptar a cada tipo diferente de tamanho de tela.
+    Então em quase todas as divs criadas, houve essa adaptação com o Media Query sendo utilizado mais de uma vez.
+
+    * Explicando rápidamente o uso básio co Media Query:
+        O media query é usado no CSS para tornar um site responsivo, ou seja, adaptável a diferentes tamanhos de tela e dispositivos.
+        Com ele, você pode aplicar estilos específicos dependendo da largura da tela, orientação (retrato ou paisagem),
+        tipo de dispositivo (impressão, tela, etc.) e até preferências do usuário.
+
+        Exemplo básico:
+        */
+        @media (max-width: 600px) {
+            body {
+              background-color: lightblue;
+              width: 95%;
+              justify-content: center;
+            }
+          }
+        /*
+        Isso significa que, se a tela tiver 600px ou menos, o fundo da página ficará azul;
+        Faz com que body passe a ter 95% de largura, em vez de um tamanho fixo, permitindo melhor adaptação a telas menores;
+        Os elementos dentro do body ficam centralizados horizontalmente com justify-content: center.
+
+    Este é um elemento muito importante para a construção de páginas com HTML e CSS para o bom funcionamento do website em diferentes tamanhos de tela e deve
+    ser compreendido por iniciantes. Dito isso, é isso daí mesmo e flw :)
+
+*/

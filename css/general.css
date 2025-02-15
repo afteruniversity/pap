@@ -1,0 +1,22 @@
+/*
+    Aqui, os elementos gerais utilizados em todo o escopo da página são definidos.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Work+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #668284, #6e7d7e, #493736, #7b3b3b);
+    height: 500vh;
+}
