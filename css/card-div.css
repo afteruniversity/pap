@@ -58,6 +58,8 @@
   color: white;
 }
 
+
+
 /* Responsividade da page*/
 
 @media (max-width: 1024px) {
@@ -78,7 +80,7 @@
     width: 280px;
   }
 }
-
+ 
 @media (max-width: 480px) {
   #card-div .cards {
     flex-direction: column;
@@ -90,3 +92,5 @@
     max-width: 300px;
   }
 }
+
+
